@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
+    namespace "dev.jajoria.storagepath"
 
     defaultConfig {
         minSdkVersion 16
